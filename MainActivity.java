@@ -63,7 +63,6 @@ public class MainActivity extends ActionBarActivity {
 </RelativeLayout>
 Send SMS
 
-Following method is the core part of sending SMS. You may download the complete example App to get the full code.
 
     protected void sendSMS() {
         String toPhoneNumber = toPhoneNumberET.getText().toString();
@@ -84,7 +83,6 @@ Send-SMS
 
 Receive SMS
 
-Core code for parsing the message from the SMS inbox is as follows, please download the project for complete code or refer the earlier tutorial.
 
    public void refreshSmsInbox() {
         ContentResolver contentResolver = getContentResolver();
